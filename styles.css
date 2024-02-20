@@ -1,0 +1,62 @@
+body{   /*this body section will add styles to the whole page*/
+    /*background-color: grey; /*This changes the background colour*/
+    text-align: center; /*This piece of code makes all content center in to the middle*/
+    background-image: url(images/biker-backgroung.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+} 
+
+
+
+.top{  /*this is the navigation bar*/
+    background-color: orange;
+    height: 200px;
+    width: 100%;
+
+}
+
+.l{
+    background-color: rgb(243, 52, 4);
+    height: 600px;
+    width: 60%;
+    float: left;
+}
+
+.m{
+    
+    height: 600px;
+    width: 10%;
+    float: left;
+}
+
+.r{
+    background-color: rgb(221, 161, 210);
+    height: 600px;
+    width: 30%;
+    float: left;
+}
+
+
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: blue;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+li a:hover{
+    color: yellow ;
+}
